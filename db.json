@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "email": "mahasiswa",
+      "password": "1234",
+      "role": "mahasiswa",
+      "absen": [
+        {
+          "id": 1,
+          "tanggal": "2021-11-06",
+          "picked": "Hadir",
+          "picked2": "Hadir",
+          "gambar": ""
+        },
+        {
+          "id": 2,
+          "tanggal": "2021-11-19",
+          "picked": "Hadir",
+          "picked2": "Hadir",
+          "gambar": "gambar"
+        },
+        {
+          "id": 3,
+          "tanggal": "2021-11-19",
+          "picked": "Hadir",
+          "picked2": "Hadir",
+          "gambar": "sss"
+        },
+        {
+          "id": 4,
+          "tanggal": "2021-11-19",
+          "picked": "Hadir",
+          "picked2": "Hadir",
+          "gambar": "testing"
+        },
+        {
+          "id": 5,
+          "tanggal": "2021-11-20",
+          "picked": "Hadir",
+          "gambar": "ssssdad"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "id": 3,
+      "email": "dosen",
+      "password": "sayapalingbenar",
+      "role": "dosen"
+    }
+  ],
+  "dosen": [
+    {
+      "id": 1,
+      "tanggal": "21 maret 2021",
+      "radio": "Hadir",
+      "matkul": "Mata Kuliah Keahlian Berkarya",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROaeDYjh1F1QsBh74LSefPXW_OoGlLpUB-og&usqp=CAU"
+    },
+    {
+      "id": 2,
+      "tanggal": "889989",
+      "matkul": "yt",
+      "radio": "Hadir",
+      "img": "https://api.duniagames.co.id/api/content/upload/file/11001138421632127084.jpg"
+    }
+  ],
+  "mahasiswa": [
+    {
+      "id": 1,
+      "nama": "salsa",
+      "tanggal": "22-11-2021",
+      "hadir": "Hadir",
+      "foto": "https://i.pinimg.com/736x/26/01/a7/2601a76991ed766c800e3108f148e717.jpg"
+    },
+    {
+      "id": 2,
+      "nama": "Fatia",
+      "tanggal": "2021-11-16",
+      "hadir": "Hadir",
+      "foto": "https://i.pinimg.com/736x/26/01/a7/2601a76991ed766c800e3108f148e717.jpg"
+    },
+    {
+      "id": 3,
+      "nama": "baim",
+      "tanggal": "2021-11-20",
+      "hadir": "Hadir",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNjwy7eqdsRWrR1DIjNR70kV2rbOZPkPKXcQ&usqp=CAU"
+    }
+  ]
+}
